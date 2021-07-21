@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>My Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 150px */
+.w3-sidebar {width: 150px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (150px) */
+#main {margin-left: 150px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/image2.jpeg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+   <a href="#biodata" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>BIODATA</p>
+  </a>
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+    <i class="fa fa-suitcase w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+    <i class="fa fa-graduation-cap w3-xxlarge"></i>
+    <p>EDUCATION</p>
+  </a>
+  <a href="#family" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+    <i class="fa fa-users w3-xxlarge"></i>
+    <p>FAMILY</p>
+  </a>
+  <a href="#gallery" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+    <i class="fa fa-camera w3-xxlarge"></i>
+    <p>GALLERY</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#biodata" class="w3-bar-item w3-button" style="width:25% !important">BIODATA</a>
+    <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="#family" class="w3-bar-item w3-button" style="width:25% !important">FAMILY</a>
+    <a href="#gallery" class="w3-bar-item w3-button" style="width:25% !important">GALLERY</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+  	<p class="w3-xlarge w3-animate-left">HI THERE!.</p>
+    <h1 class="w3-jumbo w3-animate-left"><span class="w3-hide-small">I'm</span> Nurul Afrina.</h1>
+    <img src="images/image2.jpeg" alt="afrina" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- Biodata Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="biodata">
+    <h2 class="w3-text-light-grey">Biodata</h2>
+    <hr style="width:200px" class="w3-opacity w3-left-align">
+    <h5 class="w3-text-yellow"><b>Personal Information</b></h5>
+      <p><b>Name:  Nurul Afrina Binti Mohamed Halim</b></p>
+      <p><b>Date of Birth:  27 February 1999<b/></p>
+      <p><b>Marital Status:  Single<b/></p>
+      <p><b>Nationality:  Malaysian<b/></p>
+      <p><b>Language:  Malay, English, Mandarin<b/></p>
+      <p><b>Address:  Aramas Apartment, 11900 Bayan Lepas, Penang.<b/></p>
+      <p><b>Contact No:  017-4059052<b/></p>
+      <p><b>E-mail:  nurulafrina9799@gmail.com<b/></p>
+    <h5 class="w3-text-yellow"><b>Hobbies</b></h5>
+      <p><b><i class="'fa fa-swimmer fa-fw w3-margin-right"></i>Swimming<b/></p>
+      <p><b><i class="fa fa-book fa-fw w3-margin-right"></i>Reading<b/></p>
+      <p><b><i class="fa fa-plane fa-fw w3-margin-right"></i>Travelling<b/></p>
+    
+    <!-- Experience Section -->
+     <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="experience">
+    <h2 class="w3-text-light-grey">Experience</h2>
+    <hr style="width:200px" class="w3-opacity w3-left-align">
+     <div class="w3-container">
+          <h5 class="w3-text-light-grey"><b>Sales Assistant - Guardian Health and Beauty Sdn. Bhd.</b></h5>
+          <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - Feb 2020</h6>
+          <ul>
+  			<li>Maximize sales and profitability through professional handling of promotional sales transactions.</li>
+  			<li>Advise customers and answer any queries they may have.</li>
+  			<li>Actively promote stocks or promotional mechanics to customers.</li>
+		  </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-text-light-grey"><b>Cashier - Sunshine Square</b></h5>
+          <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mac 2016 - Dec 2017</h6>
+          <ul>
+  			<li>Managing transactions with customers using cash registers.</li>
+  			<li>Scanning goods and ensuring pricing is accurate.</li>
+  			<li>Collecting payments whether in cash or credit.</li>
+		  </ul>
+          <hr>
+        </div>
+    </div>
+    <!-- End Experience Section -->
+    </div>
+    
+  
+  <!-- Education Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="education">
+    <h2 class="w3-text-light-grey">Education</h2>
+    <hr style="width:200px" class="w3-opacity w3-left-align">
+
+     <div class="w3-container">
+          <h5 class="w3-text-light-grey"><b>Degree in Marketing – University Technology MARA</b></h5>
+          <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - <span class="w3-tag w3-yellow w3-round">Current</span></h6>
+          <ul>
+  			<li>GPA 3.53</li>
+		  </ul>
+          <hr>
+        </div>
+     <div class="w3-container">
+          <h5 class="w3-text-light-grey"><b>Diploma in Business Studies – University Technology MARA</b></h5>
+          <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 – 2020</h6>
+          <ul>
+  			<li>GPA 3.61</li>
+		  </ul>
+          <hr>
+        </div>
+     <div class="w3-container">
+          <h5 class="w3-text-light-grey"><b>Sijil Pelajaran Malaysia – Sekolah Menangah Kebangsaan Bukit Jambul</b></h5>
+          <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015</h6>
+          <ul>
+  			<li>5A’s</li>
+		  </ul>
+          <hr>
+        </div>
+    </div>
+    <!-- End Education Section -->
+    </div>
+
+  <!-- Family Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="family">
+    <h2 class="w3-text-light-grey">Family</h2>
+    <hr style="width:200px"	class="w3-opacity w3-left-align">
+    <p>I have five members in my family including me. Both of my parents are in the same age which is 49 years old. Both of them are still working. My father working at Phili Orient Logistics Sdn. Bhd. and my mother working at B.Braun Medical Industries Sdn. Bhd. I have three siblings including myself. I am the second child in the family. The eldest is 23 years old, while the youngest is 13 years old. Both of them are still studying. My eldest brother is doing his Degree in Mechanical Engineering  at Universiti Kuala Lumpur, Kedah and my youngest brother is still studying in primary school.  My siblings, father and I were born in Penang while my mother was born in Perlis. 
+    </p>
+    <!-- End Family Section -->
+    </div>
+    
+
+   <!-- Gallery Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="gallery">
+    <h2 class="w3-text-light-grey">Gallery</h2>
+    <hr style="width:200px" class="w3-opacity w3-left-align">
+
+    <img src="images/image4.jpg" style="width:100%">
+    <img src="images/image5.jpg" style="width:100%">
+    <img src="images/image3.jpg" style="width:100%">
+  <!-- Gallery Section -->
+  </div>
+  
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
